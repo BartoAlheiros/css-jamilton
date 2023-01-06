@@ -6,16 +6,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tamanho de textos</title>
         <style type="text/css">
+
+            body{
+                font-size: 20px;
+            }
             
             .texto{
-                font-size: 30px;
+                /* 
+                px -> tamanho fixo
+                % -> tamanho relativo
+                em -> tamanho releativo ao container pai
+                */
+                /* font-size: 32px; */
+                font-size: 2em;
+            }
+
+            .texto2{
+              
+                font-size: 1.5em;
+
             }
 
         </style> 
     </head>
     <body>
 
-        <p class="texto">Conteúdo</p>
+        <div>
+            <p class="texto">Conteúdo 1</p>
+            <p class="texto2">Conteúdo 2</p>
+        </div>
         
     </body>
 </html>
